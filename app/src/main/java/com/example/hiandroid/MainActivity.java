@@ -6,16 +6,15 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    private TextView greetingsTv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        greetingsTv = findViewById(R.id.greetings_text_view);
+        TextView greetingsTv = findViewById(R.id.greetings_text_view);
 
-        greetingsTv.setText("Hi there! \nI`m a first view.");
+        greetingsTv.setText(R.string.greet_txt_rplc);
     }
 
 }
