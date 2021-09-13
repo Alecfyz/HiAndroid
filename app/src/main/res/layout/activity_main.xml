@@ -43,7 +43,7 @@
                 android:layout_alignParentBottom="true"
                 android:layout_marginRight="20dp"
                 android:text="@string/btn_in_lenear"
-                android:textSize="14sp" />
+                android:textSize="14dp" />
 
             <CheckBox
                 android:layout_width="wrap_content"
@@ -78,6 +78,6 @@
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
         android:text="@string/just_button"
-        android:textSize="14sp" />
+        android:textSize="14dp" />
 
 </LinearLayout>
