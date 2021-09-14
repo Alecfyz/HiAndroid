@@ -33,11 +33,13 @@ public class MainActivity extends AppCompatActivity {
 
 
         inlineButton.setOnClickListener(v -> {
-            agreedCheckBox = inlineCheckBox.isChecked() ? "НЕ " : " "; // добавим немного логики "согласен/НЕ согласен продать душу"
-            agreedCheckBox += "согласен";
+            agreedCheckBox = inlineCheckBox.isChecked() ? "НЕ согласен" : "согласен"; // добавим немного логики "согласен/НЕ согласен продать душу"
             String customerName = inputEditText.getText().toString();
-            if (customerName == "") customerName = "Вася Пупкин";
-            agreedCheckBox = "Customer " + customerName.toUpperCase() + " is " + agreedCheckBox + " to sell his soul";
+            String cName;
+            if (customerName.equals("")) {
+                cName = getString(R.string.fake_name);
+            } else { cName = customerName; }
+            agreedCheckBox = "Юзер " + cName.toUpperCase()  + " " +agreedCheckBox + " продать свою душу.";
             greetingsTextView.setText(agreedCheckBox);
             Toast.makeText(this, agreedCheckBox, Toast.LENGTH_LONG).show();
         });

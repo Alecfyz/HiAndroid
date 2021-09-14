@@ -6,9 +6,9 @@
     </string>
     <string name="greetings_header">This header will be changed!</string>
     <string name="change_layout_button">Сменить макет</string>
-    <string name="caption_chkbx2">Не хочу читать</string>
-    <string name="btn_in_lenear">...agree</string>
-    <string name="greetings_text_replace_text">Публичная оферта продаши (души).</string>
+    <string name="caption_chekbox2">Не хочу читать</string>
+    <string name="in_scrollview_button">...Согласен</string>
+    <string name="greetings_text_replace_text">Публичная оферта продажи (души).</string>
     <string name="in_scrollview_checkbox">НЕ...</string>
     <string name="swtcher">Переключить внимание</string>
     <string name="full_name">Введите ваше имя, пжалста.</string>
@@ -21,4 +21,5 @@
     <string name="password_edittext_tooltip">пароль</string>
     <string name="googleid_edittext_tooltip">Google ID</string>
     <string name="only_swtcher">Свитчер</string>
+    <string name="fake_name">Вася Пупкин</string>
 </resources>

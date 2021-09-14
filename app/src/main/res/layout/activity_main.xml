@@ -43,7 +43,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_alignParentBottom="true"
                 android:layout_marginRight="20dp"
-                android:text="@string/btn_in_lenear"
+                android:text="@string/in_scrollview_button"
                 android:textSize="14dp" />
 
             <CheckBox
