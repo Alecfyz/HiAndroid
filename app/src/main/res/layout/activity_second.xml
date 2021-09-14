@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:scrollIndicators="right">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtxt_secLayOneTxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:enabled="true"
+                android:inputType="text"
+                android:textSize="16sp"
+                android:tooltipText="@string/tltp_editfieldSecLayOne"
+                android:typeface="sans" />
+
+            <EditText
+                android:id="@+id/edtxt_secLayOneTxtPN"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:enabled="true"
+                android:inputType="textPersonName"
+                android:textSize="16sp"
+                android:tooltipText="@string/tltp_editfieldSecLayTextPN"
+                android:typeface="sans" />
+
+            <EditText
+                android:id="@+id/edtxt_secLayPhone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:enabled="true"
+                android:inputType="phone"
+                android:textSize="16sp"
+                android:tooltipText="@string/tltp_editfieldSecLayPhone"
+                android:typeface="sans" />
+
+            <EditText
+                android:id="@+id/edtxt_secLayAge"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:enabled="true"
+                android:inputType="number"
+                android:textSize="16sp"
+                android:tooltipText="@string/tltp_editfieldSecLayAge"
+                android:typeface="monospace" />
+
+            <EditText
+                android:id="@+id/edtxt_secLayPass"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:enabled="true"
+                android:inputType="textPassword"
+                android:textSize="16sp"
+                android:tooltipText="@string/tltp_editfieldSecLayPass"
+                android:typeface="serif" />
+
+
+            <EditText
+                android:id="@+id/edtxt_secLayEmail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:enabled="true"
+                android:inputType="textEmailAddress"
+                android:textSize="16sp"
+                android:tooltipText="@string/tltp_editfieldSecLayEmail"
+                android:typeface="monospace" />
+
+            <CalendarView
+                android:id="@+id/superCalend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="@string/just_button"
+        android:textSize="14dp" />
+</LinearLayout>

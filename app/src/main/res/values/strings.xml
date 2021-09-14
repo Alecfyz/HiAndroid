@@ -14,4 +14,10 @@
     <string name="tltp_editfield">Введите ваше имя, пжалста.</string>
     <string name="toggle_textR">Off</string>
     <string name="toggle_textL">On</string>
+    <string name="tltp_editfieldSecLayOne">Тултип для первого едита</string>
+    <string name="tltp_editfieldSecLayTextPN">ФИО</string>
+    <string name="tltp_editfieldSecLayPhone">Тел.</string>
+    <string name="tltp_editfieldSecLayAge">Возраст</string>
+    <string name="tltp_editfieldSecLayPass">пароль</string>
+    <string name="tltp_editfieldSecLayEmail">Google ID</string>
 </resources>

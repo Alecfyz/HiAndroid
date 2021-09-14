@@ -40,6 +40,12 @@ public class MainActivity extends AppCompatActivity {
             greetings_text_view.setText(agreed);
             Toast.makeText(this, agreed, Toast.LENGTH_LONG).show();
         });
+
+
+        finalButton.setOnClickListener(v -> {
+            setContentView(R.layout.activity_second);
+        });
+
     }
 
 }
