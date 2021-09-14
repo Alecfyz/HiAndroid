@@ -17,68 +17,68 @@
             android:orientation="vertical">
 
             <EditText
-                android:id="@+id/edtxt_secLayOneTxt"
+                android:id="@+id/text_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:enabled="true"
                 android:inputType="text"
                 android:textSize="16sp"
-                android:tooltipText="@string/tltp_editfieldSecLayOne"
+                android:tooltipText="@string/first_edittext_tooltip"
                 android:typeface="sans" />
 
             <EditText
-                android:id="@+id/edtxt_secLayOneTxtPN"
+                android:id="@+id/person_name_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:enabled="true"
                 android:inputType="textPersonName"
                 android:textSize="16sp"
-                android:tooltipText="@string/tltp_editfieldSecLayTextPN"
+                android:tooltipText="@string/fullname_edittext_tooltip"
                 android:typeface="sans" />
 
             <EditText
-                android:id="@+id/edtxt_secLayPhone"
+                android:id="@+id/phone_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:enabled="true"
                 android:inputType="phone"
                 android:textSize="16sp"
-                android:tooltipText="@string/tltp_editfieldSecLayPhone"
+                android:tooltipText="@string/cellnumber_edittext_tooltip"
                 android:typeface="sans" />
 
             <EditText
-                android:id="@+id/edtxt_secLayAge"
+                android:id="@+id/age_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:enabled="true"
                 android:inputType="number"
                 android:textSize="16sp"
-                android:tooltipText="@string/tltp_editfieldSecLayAge"
+                android:tooltipText="@string/age_edittext_tooltip"
                 android:typeface="monospace" />
 
             <EditText
-                android:id="@+id/edtxt_secLayPass"
+                android:id="@+id/password_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:enabled="true"
                 android:inputType="textPassword"
                 android:textSize="16sp"
-                android:tooltipText="@string/tltp_editfieldSecLayPass"
+                android:tooltipText="@string/password_edittext_tooltip"
                 android:typeface="serif" />
 
 
             <EditText
-                android:id="@+id/edtxt_secLayEmail"
+                android:id="@+id/email_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:enabled="true"
                 android:inputType="textEmailAddress"
                 android:textSize="16sp"
-                android:tooltipText="@string/tltp_editfieldSecLayEmail"
+                android:tooltipText="@string/googleid_edittext_tooltip"
                 android:typeface="monospace" />
 
             <CalendarView
-                android:id="@+id/superCalend"
+                android:id="@+id/main_calendar_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
@@ -86,10 +86,10 @@
     </ScrollView>
 
     <Button
-        android:id="@+id/backButton"
+        android:id="@+id/back_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
-        android:text="@string/just_button"
+        android:text="@string/change_layout_button"
         android:textSize="14dp" />
 </LinearLayout>

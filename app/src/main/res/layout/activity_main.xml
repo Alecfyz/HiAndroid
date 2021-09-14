@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:text="@string/hallllo"
+        android:text="@string/greetings_header"
         android:textAlignment="center"
         android:textColor="@color/purple_500"
         android:textSize="20sp" />
@@ -31,50 +31,50 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="50dp"
-                android:text="@string/i_m_in_scrollable_area"
+                android:text="@string/text_in_scrollable_area"
                 android:textAlignment="center"
                 android:textColor="@color/teal_700"
                 android:textSize="12sp" />
 
             <Button
-                android:id="@+id/btn_internal"
+                android:id="@+id/in_scrollview_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentBottom="true"
                 android:layout_marginRight="20dp"
-                android:text="@string/btn_in_lenear"
+                android:text="@string/in_scrollview_button"
                 android:textSize="14dp" />
 
             <CheckBox
-                android:id="@+id/chkbx_intrnl"
+                android:id="@+id/in_scrollview_checkbox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentBottom="true"
                 android:layout_marginLeft="20dp"
-                android:text="@string/chkbx_intrnl" />
+                android:text="@string/in_scrollview_checkbox" />
         </RelativeLayout>
     </ScrollView>
 
     <EditText
-        android:id="@+id/edtxt_custName"
+        android:id="@+id/fullname_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:autofillHints="Just edit this text!"
         android:enabled="true"
         android:inputType="text"
         android:textSize="16sp"
-        android:tooltipText="@string/tltp_editfield"
+        android:tooltipText="@string/full_name"
         android:typeface="sans"
         tools:ignore="LabelFor" />
 
     <Switch
-        android:id="@+id/swtch_downleft"
+        android:id="@+id/only_switcher"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:text="@string/swtch_act"
+        android:text="@string/only_swtcher"
         android:textAlignment="center" />
 
 
@@ -86,22 +86,23 @@
         android:textAlignment="center">
 
         <ToggleButton
-            android:id="@+id/tglbt_toggleL"
+            android:id="@+id/left_toggle_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
             android:layout_marginRight="20dp"
-            android:text="@string/toggle_textL" />
+            android:text="@string/toggle_text1" />
 
         <ToggleButton
-            android:id="@+id/tglbt_toggleR"
+            android:id="@+id/right_toggle_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
             android:layout_marginRight="20dp"
-            android:text="@string/toggle_textR" />
+            android:checked="true"
+            android:text="@string/toggle_text2" />
 
     </LinearLayout>
 
@@ -111,7 +112,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
-        android:text="@string/just_button"
+        android:text="@string/change_layout_button"
         android:textSize="14dp" />
 
 </LinearLayout>

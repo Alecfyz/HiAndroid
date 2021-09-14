@@ -14,7 +14,7 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        backButton = findViewById(R.id.backButton);
+        backButton = findViewById(R.id.back_button);
 
         backButton.setOnClickListener(v -> {
             setContentView(R.layout.activity_main);
