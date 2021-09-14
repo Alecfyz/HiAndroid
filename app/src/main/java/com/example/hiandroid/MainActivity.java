@@ -15,9 +15,9 @@ public class MainActivity extends AppCompatActivity {
     private Button inlineButton;
     private Button finalButton;
     private CheckBox inlineCheckBox;
-    private Switch swtch_downleft;
-    private String agreed;
-    private TextView greetings_text_view;
+    private Switch swtcher1;
+    private String agreedCheckBox;
+    private TextView greetingsTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,17 +28,18 @@ public class MainActivity extends AppCompatActivity {
         finalButton = findViewById(R.id.btn_final);
         inputEditText = findViewById(R.id.edtxt_custName); //клавиатура для поля по дефолту выключена при активации активити - через манифест. При клике включается.
         inlineCheckBox = findViewById(R.id.chkbx_intrnl);
-        swtch_downleft = findViewById(R.id.swtch_downleft);
-        greetings_text_view = findViewById(R.id.greetings_text_view);
+        swtcher1 = findViewById(R.id.swtch_downleft);
+        greetingsTextView = findViewById(R.id.greetings_text_view);
 
 
         inlineButton.setOnClickListener(v -> {
-            agreed = inlineCheckBox.isChecked() ? "NOT agree" : "Agree"; // добавим немного логики "согласен/НЕ согласен продать душу"
+            agreedCheckBox = inlineCheckBox.isChecked() ? "НЕ " : " "; // добавим немного логики "согласен/НЕ согласен продать душу"
+            agreedCheckBox += "согласен";
             String customerName = inputEditText.getText().toString();
             if (customerName == "") customerName = "Вася Пупкин";
-            agreed = "Customer " + customerName.toUpperCase() + " is " + agreed + " to sell his soul";
-            greetings_text_view.setText(agreed);
-            Toast.makeText(this, agreed, Toast.LENGTH_LONG).show();
+            agreedCheckBox = "Customer " + customerName.toUpperCase() + " is " + agreedCheckBox + " to sell his soul";
+            greetingsTextView.setText(agreedCheckBox);
+            Toast.makeText(this, agreedCheckBox, Toast.LENGTH_LONG).show();
         });
 
 
