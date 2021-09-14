@@ -24,11 +24,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        inlineButton = findViewById(R.id.btn_internal);
+        inlineButton = findViewById(R.id.in_scrollview_button);
         finalButton = findViewById(R.id.btn_final);
-        inputEditText = findViewById(R.id.edtxt_custName); //клавиатура для поля по дефолту выключена при активации активити - через манифест. При клике включается.
-        inlineCheckBox = findViewById(R.id.chkbx_intrnl);
-        swtcher1 = findViewById(R.id.swtch_downleft);
+        inputEditText = findViewById(R.id.fullname_edit_text); //клавиатура для поля по дефолту выключена при активации активити - через манифест. При клике включается.
+        inlineCheckBox = findViewById(R.id.in_scrollview_checkbox);
+        swtcher1 = findViewById(R.id.only_switcher);
         greetingsTextView = findViewById(R.id.greetings_text_view);
 
 
