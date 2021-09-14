@@ -5,11 +5,11 @@
     \n\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
     </string>
     <string name="greetings_header">This header will be changed!</string>
-    <string name="chng_layout_button">Сменить макет</string>
-    <string name="chkbx2">Не хочу читать</string>
+    <string name="change_layout_button">Сменить макет</string>
+    <string name="caption_chkbx2">Не хочу читать</string>
     <string name="btn_in_lenear">...agree</string>
-    <string name="greet_txt_rplc">Read and sell me your soul.</string>
-    <string name="chkbx_intrenal">НЕ...</string>
+    <string name="greetings_text_replace_text">Публичная оферта продаши (души).</string>
+    <string name="in_scrollview_checkbox">НЕ...</string>
     <string name="swtcher">Переключить внимание</string>
     <string name="full_name">Введите ваше имя, пжалста.</string>
     <string name="toggle_text2">ВЫкл</string>
@@ -20,4 +20,5 @@
     <string name="age_edittext_tooltip">Возраст</string>
     <string name="password_edittext_tooltip">пароль</string>
     <string name="googleid_edittext_tooltip">Google ID</string>
+    <string name="only_swtcher">Свитчер</string>
 </resources>
